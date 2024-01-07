@@ -7,55 +7,35 @@
 
 ## YOLO
 
--images
-
---train
-
----*.jpg……
-
---val
-
----*.jpg……
-
---test
-
----*.jpg……
-
--labels
-
---train
-
----*.txt……
-
---val
-
----*.txt……
-
---test
-
----*.txt……
+YOLO/
+├── images/
+│   ├── train/
+│   │   ├── *.jpg (训练集图片)
+│   ├── val/
+│   │   ├── *.jpg (验证集图片)
+│   └── test/
+│       ├── *.jpg (测试集图片)
+└── labels/
+    ├── train/
+    │   ├── *.txt (训练集标签)
+    ├── val/
+    │   ├── *.txt (验证集标签)
+    └── test/
+        ├── *.txt (测试集标签)
 
 ## COCO JSON
 
--2017train
-
---*.jpg……
-
--2017val
-
---*.jpg……
-
--2017test
-
---*.jpg……
-
--annotations
-
---instances_train.json
-
---instances_val.json
-
---instances_test.json
+COCO_JSON/
+├── 2017train/
+│   ├── *.jpg (2017年训练集图片)
+├── 2017val/
+│   ├── *.jpg (2017年验证集图片)
+├── 2017test/
+│   ├── *.jpg (2017年测试集图片)
+└── annotations/
+    ├── instances_train.json (训练集标注)
+    ├── instances_val.json (验证集标注)
+    └── instances_test.json (测试集标注)
 
 # 使用方法
 
