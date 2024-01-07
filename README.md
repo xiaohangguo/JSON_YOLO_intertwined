@@ -28,11 +28,11 @@ YOLO/
 ```
 COCO_JSON/
 ├── 2017train/
-│   └── *.jpg # 2017年训练集图片
+│   └── *.jpg # 训练集图片
 ├── 2017val/
-│   └── *.jpg # 2017年验证集图片
+│   └── *.jpg # 验证集图片
 ├── 2017test/
-│   └── *.jpg # 2017年测试集图片
+│   └── *.jpg # 测试集图片
 └── annotations/
     ├── instances_train.json # 训练集标注
     ├── instances_val.json # 验证集标注
