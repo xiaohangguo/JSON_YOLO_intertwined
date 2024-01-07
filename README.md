@@ -69,8 +69,18 @@
 
 
 
-## JSON2YOLO
+## JSON2YOLO_ignore_0
 
 直接执行即可，默认代码是放在COCOdataset 数据集根目录下执行。
 
 程序会跳过标签为0的标签，然后导出标签会-1 ，如果不需要这部分功能需要调整。
+
+这部分是针对公开数据集[SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee)v2开发的。
+
+https://seadronessee.cs.uni-tuebingen.de/dataset
+
+
+
+## JSON2YOLO
+
+直接执行即可，默认代码是放在COCOdataset 数据集根目录下执行。
