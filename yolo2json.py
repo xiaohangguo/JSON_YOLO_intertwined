@@ -77,7 +77,7 @@ train_coco_format = yolo_to_coco_for_subset(
     os.path.join(yolo_base_folder, "labels/train"),
     categories
 )
-save_coco_format(train_coco_format, "train_coco_format.json")
+save_coco_format(train_coco_format, "instances_train.json")
 
 # Convert val set
 val_coco_format = yolo_to_coco_for_subset(
@@ -85,4 +85,4 @@ val_coco_format = yolo_to_coco_for_subset(
     os.path.join(yolo_base_folder, "labels/val"),
     categories
 )
-save_coco_format(val_coco_format, "val_coco_format.json")
+save_coco_format(val_coco_format, "instances_val.json")
