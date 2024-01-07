@@ -7,6 +7,7 @@
 
 ## YOLO
 
+```
 YOLO/
 ├── images/
 │   ├── train/
@@ -22,9 +23,9 @@ YOLO/
     │   └── *.txt # 验证集标签
     └── test/
         └── *.txt # 测试集标签
-
+```
 ## COCO JSON
-
+```
 COCO_JSON/
 ├── 2017train/
 │   └── *.jpg # 2017年训练集图片
@@ -36,7 +37,7 @@ COCO_JSON/
     ├── instances_train.json # 训练集标注
     ├── instances_val.json # 验证集标注
     └── instances_test.json # 测试集标注
-
+```
 # 使用方法
 
 ## YOLO2JSON
